@@ -1,9 +1,10 @@
+import requests
+import xmltodict
 from pprint import pprint
 from typing import Dict, List
-import requests
 from celery import Celery, Task
 from bs4 import BeautifulSoup
-import xmltodict
+
 
 from pydantic import (
     BaseModel,
