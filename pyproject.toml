@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "state-orders-parsing"
+version = "0.1.0"
+description = ""
+authors = ["Anna Kartasheva <annakartashevamail@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+celery = "^5.4.0"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+html5lib = "^1.1"
+xmltodict = "^0.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
