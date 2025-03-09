@@ -12,6 +12,8 @@ requests = "^2.32.3"
 bs4 = "^0.0.2"
 html5lib = "^1.1"
 xmltodict = "^0.14.2"
+ruff = "^0.9.10"
+pydantic = "^2.10.6"
 
 
 [build-system]
